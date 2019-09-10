@@ -13,8 +13,8 @@ class SearchBar extends Component<Props> {
     }
  
     
-    handleChange: any = (searchTerm: string) => {
-        this.props.searchDeals(searchTerm)
+    handleChange: any = (searching: string) => {
+        this.props.searchDeals(searching)
     }
 
 
